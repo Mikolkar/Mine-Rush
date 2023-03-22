@@ -27,6 +27,30 @@ Terminal Version - Medium
 Terminal Version - Hard
 		./run_game -t-h
 
+To run it correctly on Linux, the following libraries must be installed: Ncurses, SDL2, SDL_TTF, and SDL_IMAGE. In case they are not installed, please enter the following commands in the terminal:
+
+Ncurses:
+sudo apt-get install libncurses5-dev libncursesw5-dev
+
+SDL2:
+sudo apt-get install libsdl2-dev
+
+SDL_TTF:
+sudo apt-get install libsdl2-ttf-dev
+
+SDL_IMAGE:
+sudo apt-get install libsdl2-image-dev
+
+Compilation of the project:
+After downloading the libraries, go to the build/ directory and enter cmake .., then in the same directory enter the command make to compile the project.
+To remove executable files in the build/ directory, enter make clean.
+
+To easily remove the compiled file in the build directory, enter ./run_game remove-makefiles in the main project directory. If you want to quickly compile it, simply enter ./run_game build-makefiles. Before that, remember to change the permissions of the run_game.sh file to executable by entering chmod +x run_game.sh in the main project directory.
+
+
+
+
+
 
 
 
