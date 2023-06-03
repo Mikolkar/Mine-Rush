@@ -15,7 +15,7 @@ To run the graphical version of the game, navigate to the src/ directory and ent
 ./sdl2_game
 ```
 ### Terminal Version
-The terminal version of the program accepts arguments for easy, medium, or hard 	difficulty levels. If no arguments are provided, the program will display a message telling the user what to enter to run the program correctly. To run the terminal version, navigate to the src/ directory and enter:
+The terminal version of the program accepts arguments for **easy**, **medium**, or **hard** 	difficulty levels. If no arguments are provided, the program will display a message telling the user what to enter to run the program correctly. To run the terminal version, navigate to the src/ directory and enter:
 ```
 ./mine_terminal <argument>
 ```
