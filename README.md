@@ -1,4 +1,4 @@
-Mine Rush Game
+## Mine Rush Game
 
 Mine Rush is a minesweeper-style game with some new and original gameplay features. The goal of the game is to disarm as many bombs as possible by uncovering new fields on the map, flagging or shifting the board down the map, thereby generating a new row with potential mines to disarm. The player can choose from three levels of difficulty: easy, medium, and hard, and the chosen difficulty affects the width of the playing board.
 
