@@ -34,6 +34,7 @@ Running the Program To run the program using the run_game.sh file, enter the fol
 ./run_game -t-h
 ```
 
+## Required libraries
 To run it correctly on Linux, the following libraries must be installed: Ncurses, SDL2, SDL_TTF, and SDL_IMAGE. In case they are not installed, please enter the following commands in the terminal:
 
 **Ncurses:**
