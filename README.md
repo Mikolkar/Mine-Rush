@@ -11,14 +11,14 @@ The game comes in two versions, one terminal and the other graphical. Depending 
 
 ### Graphical Version
 To run the graphical version of the game, navigate to the src/ directory and enter:
-```
-	./sdl2_game
+	```
+./sdl2_game
 ```
 ### Terminal Version
 The terminal version of the program accepts arguments for easy, medium, or hard 	difficulty levels. If no arguments are provided, the program will display a message telling the user what to enter to run the program correctly. To run the terminal version, navigate to the src/ directory and enter:
-```
-	./mine_terminal <argument>
-```
+	```
+./mine_terminal <argument>
+	```
 	
 It is important to note that the executable files should remain in the src/ directory, as there may be problems with loading the font and images.
 Running the Program To run the program using the run_game.sh file, enter the following command for the specific version:
