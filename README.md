@@ -4,15 +4,15 @@ Mine Rush is a minesweeper-style game with some new and original gameplay featur
 
 If the player moves the board down the map, the game removes the last row at the bottom of the map, checking whether the bombs have been flagged correctly. If a bomb is not flagged or if a flag is placed on a cell without a bomb, the player loses one life out of three. Additionally, if the player uncovers a cell with a bomb, they also lose one life. However, if the bombs are flagged correctly, the player earns one point for each bomb disarmed. The game ends when the player loses all three lives. After losing the game, all the bombs on the current field are shown on the board. The player can either exit the game or reset it by clicking the appropriate button.
 
-Program Versions
+## Program Versions
 The game comes in two versions, one terminal and the other graphical. Depending on which version you want to run, you need to follow these steps:
 
 
 
-## Graphical Version
+### Graphical Version
 To run the graphical version of the game, navigate to the src/ directory and enter:
 	.	/sdl2_game
-## Terminal Version
+### Terminal Version
 The terminal version of the program accepts arguments for easy, medium, or hard 	difficulty levels. If no arguments are provided, the program will display a message telling the user what to enter to run the program correctly. To run the terminal version, navigate to the src/ directory and enter:
 		./mine_terminal <argument>
 	
@@ -55,7 +55,7 @@ sudo apt-get install libsdl2-ttf-dev
 ```
 sudo apt-get install libsdl2-image-dev
 ```
-Compilation of the project:
+## Compilation of the project:
 After downloading the libraries, go to the build/ directory and enter cmake .., then in the same directory enter the command make to compile the project.
 To remove executable files in the build/ directory, enter make clean.
 
