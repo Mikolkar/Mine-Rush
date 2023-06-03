@@ -32,7 +32,7 @@ To run it correctly on Linux, the following libraries must be installed: Ncurses
 Ncurses:
 sudo apt-get install libncurses5-dev libncursesw5-dev
 
-*SDL2:
+*SDL2:*
 sudo apt-get install libsdl2-dev
 	
 *SDL_TTF:
