@@ -1,4 +1,4 @@
-## Mine Rush Game
+# Mine Rush Game
 
 Mine Rush is a minesweeper-style game with some new and original gameplay features. The goal of the game is to disarm as many bombs as possible by uncovering new fields on the map, flagging or shifting the board down the map, thereby generating a new row with potential mines to disarm. The player can choose from three levels of difficulty: easy, medium, and hard, and the chosen difficulty affects the width of the playing board.
 
@@ -7,11 +7,11 @@ If the player moves the board down the map, the game removes the last row at the
 Program Versions
 The game comes in two versions, one terminal and the other graphical. Depending on which version you want to run, you need to follow these steps:
 
-Terminal Version
+## Terminal Version
 The terminal version of the program accepts arguments for easy, medium, or hard 	difficulty levels. If no arguments are provided, the program will display a message telling the user what to enter to run the program correctly. To run the terminal version, navigate to the src/ directory and enter:
 		./mine_terminal <argument>
 
-Graphical Version
+## Graphical Version
 To run the graphical version of the game, navigate to the src/ directory and enter:
 	.	/sdl2_game
 
@@ -30,17 +30,24 @@ Terminal Version - Hard:
 To run it correctly on Linux, the following libraries must be installed: Ncurses, SDL2, SDL_TTF, and SDL_IMAGE. In case they are not installed, please enter the following commands in the terminal:
 
 **Ncurses:**
+```
 sudo apt-get install libncurses5-dev libncursesw5-dev
+```
 
 **SDL2:**
+```
 sudo apt-get install libsdl2-dev
+```
 	
 **SDL_TTF:**
+```
 sudo apt-get install libsdl2-ttf-dev
+```
 	
 **SDL_IMAGE:**
+```
 sudo apt-get install libsdl2-image-dev
-
+```
 Compilation of the project:
 After downloading the libraries, go to the build/ directory and enter cmake .., then in the same directory enter the command make to compile the project.
 To remove executable files in the build/ directory, enter make clean.
