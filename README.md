@@ -11,7 +11,7 @@ The game comes in two versions, one terminal and the other graphical. Depending 
 
 ### Graphical Version
 To run the graphical version of the game, navigate to the src/ directory and enter:
-	```
+```
 ./sdl2_game
 ```
 ### Terminal Version
