@@ -20,19 +20,19 @@ It is important to note that the executable files should remain in the src/ dire
 Running the Program To run the program using the run_game.sh file, enter the following command for the specific version:
 
 **Terminal Version, Easy:**
-	```
-		./run_game -t-e
-	```
+```
+./run_game -t-e
+```
 
 **Terminal Version, Medium:**
-	```
-		./run_game -t-m
-	```
+```
+./run_game -t-m
+```
 
 **Terminal Version, Hard:**
-	```
-		./run_game -t-h
-	```
+```
+./run_game -t-h
+```
 
 To run it correctly on Linux, the following libraries must be installed: Ncurses, SDL2, SDL_TTF, and SDL_IMAGE. In case they are not installed, please enter the following commands in the terminal:
 
