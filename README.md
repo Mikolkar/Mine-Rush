@@ -23,17 +23,17 @@ The terminal version of the program accepts arguments for **easy**, **medium**, 
 It is important to note that the executable files should remain in the src/ directory, as there may be problems with loading the font and images.
 Running the Program To run the program using the run_game.sh file, enter the following command for the specific version:
 
-**Terminal Version, Easy:**
+-**Terminal Version, Easy:**
 ```
 ./run_game -t-e
 ```
 
-**Terminal Version, Medium:**
+-**Terminal Version, Medium:**
 ```
 ./run_game -t-m
 ```
 
-**Terminal Version, Hard:**
+-**Terminal Version, Hard:**
 ```
 ./run_game -t-h
 ```
@@ -41,22 +41,22 @@ Running the Program To run the program using the run_game.sh file, enter the fol
 ## Required libraries
 To run it correctly on Linux, the following libraries must be installed: Ncurses, SDL2, SDL_TTF, and SDL_IMAGE. In case they are not installed, please enter the following commands in the terminal:
 
-**Ncurses:**
+-**Ncurses:**
 ```
 sudo apt-get install libncurses5-dev libncursesw5-dev
 ```
 
-**SDL2:**
+-**SDL2:**
 ```
 sudo apt-get install libsdl2-dev
 ```
 	
-**SDL_TTF:**
+-**SDL_TTF:**
 ```
 sudo apt-get install libsdl2-ttf-dev
 ```
 	
-**SDL_IMAGE:**
+-**SDL_IMAGE:**
 ```
 sudo apt-get install libsdl2-image-dev
 ```
