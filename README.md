@@ -29,15 +29,13 @@ Terminal Version - Hard
 
 To run it correctly on Linux, the following libraries must be installed: Ncurses, SDL2, SDL_TTF, and SDL_IMAGE. In case they are not installed, please enter the following commands in the terminal:
 
-Ncurses:
+#Ncurses:
 sudo apt-get install libncurses5-dev libncursesw5-dev
 
 SDL2:
 sudo apt-get install libsdl2-dev
-
 SDL_TTF:
 sudo apt-get install libsdl2-ttf-dev
-
 SDL_IMAGE:
 sudo apt-get install libsdl2-image-dev
 
